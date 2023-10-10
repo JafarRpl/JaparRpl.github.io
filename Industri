@@ -1,0 +1,18 @@
+<html>
+<body>
+<h2>Fruit List</h2>
+
+<table border=1>
+<tr>
+<th>Fruit</th>
+<th>Color</th>
+<th>Taste</th>
+</tr>
+<tr>
+<td>Apple</td>
+<td>Red</td>
+<td>Sweet</td>
+</tr>
+<tr>
+</body>
+</html>
