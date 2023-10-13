@@ -1,18 +1,59 @@
-<html>
-<body>
-<h2>Fruit List</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub-like Page</title>
+    <!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
 
-<table border=1>
-<tr>
-<th>Fruit</th>
-<th>Color</th>
-<th>Taste</th>
-</tr>
-<tr>
-<td>Apple</td>
-<td>Red</td>
-<td>Sweet</td>
-</tr>
-<tr>
+        /* You can customize the Bootstrap styles here or in an external CSS file */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark">
+        <h1 class="navbar-brand">My GitHub-like Page</h1>
+    </header>
+    
+    <main class="container">
+        <h2>Welcome to My GitHub-like Page</h2>
+        <p>This is a simple example of a webpage with a header and footer, similar to what you might find on GitHub.</p>
+    </main>
+
+    <footer class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            &copy; 2023 My GitHub-like Page
+        </div>
+    </footer>
+
+    <!-- Include Bootstrap JS and jQuery from a CDN if needed -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 </body>
 </html>
